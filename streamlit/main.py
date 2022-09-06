@@ -150,7 +150,8 @@ if 'history' not in st.session_state:
     st.session_state['history'] = history
 
 #Set page title
-st.title('Medicare fraud detection')
+st.markdown("<h1 style='text-align: center;'>Medicare fraud detection</h1>", unsafe_allow_html=True)
+st.markdown("""---""")
 
 
 #First container (manually enter a practitioner)
