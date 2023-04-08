@@ -199,7 +199,7 @@ with st.container():
         pass
     
     #Send request to API
-    url1 =  "https://api.render.com/deploy/srv-cggqvi9mbg5e1o0hlhq0?key=l_AaLMLKvIQ"
+    url1 =  "https://medicare-fraud-detection.onrender.com"
     if(submitted):
         if(check_form(tot_hcpcs,male_bene,tot_bene,tot_serv)):
             with st.spinner('Processing ...'):
@@ -269,7 +269,7 @@ with st.container():
         pass
     with col13:
         pass
-    url2 =  "https://api.render.com/deploy/srv-cggqvi9mbg5e1o0hlhq0?key=l_AaLMLKvIQ"
+    url2 =  "https://medicare-fraud-detection.onrender.com"
     if(uploaded):
         with st.spinner('Processing ...'):
             if uploaded_file is not None:
