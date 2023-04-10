@@ -199,7 +199,7 @@ with st.container():
         pass
     
     #Send request to API
-    url1 =  "https://medicare-fraud-detection.onrender.com"
+    url1 =  "https://medicare-fraud.onrender.com/Fraud_detection_single"
     if(submitted):
         if(check_form(tot_hcpcs,male_bene,tot_bene,tot_serv)):
             with st.spinner('Processing ...'):
@@ -269,7 +269,7 @@ with st.container():
         pass
     with col13:
         pass
-    url2 =  "https://medicare-fraud-detection.onrender.com"
+    url2 =  "https://medicare-fraud.onrender.com/Fraud_detection_single"
     if(uploaded):
         with st.spinner('Processing ...'):
             if uploaded_file is not None:
